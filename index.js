@@ -18,7 +18,7 @@ tellmeBtn.addEventListener("click" , function checkProfitLoss(){
         
         
         output.style.color = "green";
-        output.innerHTML = `Your Profit is ${profit.toFixed(2)} and profit percentage is ${profiPercentage.toFixed(2)}`
+        output.innerHTML = `Your Profit is ${profit.toFixed(2)} and profit percentage is ${profiPercentage.toFixed(2)} %`
         
     }
 
