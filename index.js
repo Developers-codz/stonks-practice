@@ -26,7 +26,7 @@ tellmeBtn.addEventListener("click" , function checkProfitLoss(){
         var loss = totalcp - totalsp;
         var lossPercentage = loss/totalcp*100;
         output.style.color = "red";
-        output.innerHTML = `Your Loss is ${loss.toFixed(2)} and loss percentage is ${lossPercentage.toFixed(2)}`
+        output.innerHTML = `Your Loss is ${loss.toFixed(2)} and loss percentage is ${lossPercentage.toFixed(2)} %`
         
     }
     else{
