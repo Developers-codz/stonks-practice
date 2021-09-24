@@ -45,4 +45,14 @@ input:focus{
     display:none;
     font-size: larger;
 }
+/* footer */
+.container a{
+    padding:2rem 1rem;
+    font-size: x-large;
+    
+}
+.container div{
+    margin-top: 1rem;
+    color:rgb(99, 52, 175)
+}
 
