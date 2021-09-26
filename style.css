@@ -25,6 +25,7 @@ input{
     margin: 1rem 0rem;
     width:30%;
     background: rgb(240, 235, 235);
+    border-radius: 2rem;
     box-shadow: -8px 9px 6px -9px rgba(255,255,255,0.75);
 -webkit-box-shadow: -8px 9px 6px -9px rgba(255,255,255,0.75);
 -moz-box-shadow: -8px 9px 6px -9px rgba(255,255,255,0.75);
@@ -49,10 +50,16 @@ input:focus{
 .container a{
     padding:2rem 1rem;
     font-size: x-large;
+    color:white;
     
 }
 .container div{
     margin-top: 1rem;
-    color:rgb(99, 52, 175)
+    
+}
+@media only screen and (max-width:600px){
+    input , .btn{
+        width:50%;
+    }
 }
 
